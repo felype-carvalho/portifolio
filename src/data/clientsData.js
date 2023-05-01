@@ -8,43 +8,43 @@ import SamsungImage from '../images/brands/samsung_gray.png';
 import CanonImage from '../images/brands/canon_gray.png';
 import PumaImage from '../images/brands/puma_gray.png';
 
-export const clientsHeading = 'Some of the brands that trust me';
+export const clientsHeading = 'Formação';
 
 export const clientsData = [
 	{
 		id: 1,
-		title: 'Amazon',
-		img: AmazonImage,
+		title: 'PUMA',
+		img: PumaImage,
 	},
 	{
 		id: 2,
-		title: 'Sony',
-		img: SonyImage,
+		title: 'PUMA',
+		img: PumaImage,
 	},
 	{
 		id: 3,
-		title: 'Adidas',
-		img: AdidasImage,
+		title: 'PUMA',
+		img: PumaImage,
 	},
 	{
 		id: 4,
-		title: 'FILA',
-		img: FilaImage,
+		title: 'PUMA',
+		img: PumaImage,
 	},
 	{
 		id: 5,
-		title: 'NB',
-		img: NBImage,
+		title: 'PUMA',
+		img: PumaImage,
 	},
 	{
 		id: 6,
-		title: 'SAMSUNG',
-		img: SamsungImage,
+		title: 'PUMA',
+		img: PumaImage,
 	},
 	{
 		id: 7,
-		title: 'CANON',
-		img: CanonImage,
+		title: 'PUMA',
+		img: PumaImage,
 	},
 	{
 		id: 8,
