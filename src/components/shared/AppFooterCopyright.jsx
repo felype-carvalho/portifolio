@@ -4,19 +4,18 @@ function AppFooterCopyright() {
 			<div className="text-lg text-ternary-dark dark:text-ternary-light">
 				&copy; {new Date().getFullYear()}
 				<a
-					href="https://github.com/realstoman/react-tailwindcss-portfolio"
+					href="https://github.com/felype-carvalho/portifolio"
 					target="__blank"
-					className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
+					className="hover:underline hover:text-amber-600 dark:hover:text-amber-300 ml-1 duration-500"
 				>
-					Portfolio criado com React e Tailwind
+					Portfolio criado com React e Tailwind 
 				</a>
-				.
 				<a
-					href="https://stoman.me"
+					href="https://github.com/felype-carvalho"
 					target="__blank"
-					className="text-secondary-dark dark:text-secondary-light font-medium uppercase hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
+					className="text-secondary-dark dark:text-secondary-light font-medium hover:underline hover:text-amber-600 dark:hover:text-amber-300 ml-1 duration-500 text-bold"
 				>
-					FELYPE CARVALHO
+					por Felype Carvalho.
 				</a>
 			</div>
 		</div>

@@ -1,51 +1,52 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
-import WebImage2 from '../images/web-project-2.jpg';
-import MobileImage1 from '../images/mobile-project-1.jpg';
-import MobileImage2 from '../images/mobile-project-2.jpg';
-import UIImage1 from '../images/ui-project-1.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
+import SecretWordImage from '../images/projects/secret-word.jpg'
+import AmazonPageCloneImage from '../images/projects/amazon-page-clone.jpg'
+import FacebookPageCloneImage from '../images/projects/facebook-page-clone.jpg'
+import SpotifyPageCloneImage from '../images/projects/spotify-page-clone.jpg'
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'Secret Word',
 		category: 'Aplicação Web',
-		img: WebImage2,
+		img: SecretWordImage,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
+			title: 'Jogo de Palavras Desenvolvido em React',
+			publishDate: '23 de Fevereiro de 2023',
 			tags: 'UI / Frontend',
 		},
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Aplicação Mobile',
-		img: MobileImage2,
+		title: 'Clone de Página Amazon',
+		category: 'Design UI/UX',
+		img: AmazonPageCloneImage,
+		ProjectHeader: {
+			title: 'Clone da pagina de livros da Amazon usando Tailwind CSS',
+			publishDate: '9 de Fevereiro de 2023',
+			tags: 'UI / Frontend',
+		},
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
+		title: 'Clone de Página Facebook',
 		category: 'Design UI/UX',
-		img: UIImage1,
+		img: FacebookPageCloneImage,
+		ProjectHeader: {
+			title: 'Clone da login do Facebook usando Tailwind CSS',
+			publishDate: '9 de Fevereiro de 2023',
+			tags: 'UI / Frontend',
+		},
 	},
 	{
 		id: 4,
-		title: 'Cloud Storage Platform',
+		title: 'Clone de Página Spotify',
 		category: 'Design UI/UX',
-		img: UIImage2,
-	},
-	{
-		id: 5,
-		title: 'React Social App',
-		category: 'Aplicação Mobile',
-		img: MobileImage1,
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
-		category: 'Aplicação Web',
-		img: WebImage1,
+		img: SpotifyPageCloneImage,
+		ProjectHeader: {
+			title: 'Clone da login do Facebook usando Tailwind CSS',
+			publishDate: '9 de Fevereiro de 2023',
+			tags: 'UI / Frontend',
+		},
 	},
 ];

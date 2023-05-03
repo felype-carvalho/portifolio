@@ -1,6 +1,6 @@
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import { FiArrowDownCircle } from 'react-icons/fi';
-import developerLight from '../../images/developer.svg';
+import developerLight from '../../images/developer-light.svg';
 import developerDark from '../../images/developer-dark.svg';
 import { motion } from 'framer-motion';
 
@@ -50,9 +50,9 @@ const AppBanner = () => {
 					className="flex justify-center sm:block"
 				>
 					<a
-						download="Stoman-Resume.pdf"
-						href="/files/Stoman-Resume.pdf"
-						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+						download="CURRICULO_FELYPE_CARVALHO_DE_OLIVEIRA.pdf"
+						href="/files/CURRICULO_FELYPE_CARVALHO_DE_OLIVEIRA.pdf"
+						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-amber-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-amber-900 hover:bg-amber-500 text-gray-500 hover:text-white duration-500"
 						aria-label="Download Resume"
 					>
 						<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
@@ -68,12 +68,13 @@ const AppBanner = () => {
 				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
 				className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
 			>
-				<img
-					src={
-						activeTheme === 'dark' ? developerLight : developerDark
-					}
-					alt="Developer"
-				/>
+				{activeTheme === 'dark' ? (
+					<img src={developerLight} alt="Developer" />
+				) : (
+					<img src={developerDark} alt="Developer" />
+				)
+				}
+
 			</motion.div>
 		</motion.section>
 	);
