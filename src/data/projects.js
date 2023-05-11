@@ -1,8 +1,8 @@
 // Import images
-import SecretWordImage from '../images/projects/secret-word.jpg'
-import AmazonPageCloneImage from '../images/projects/amazon-page-clone.jpg'
-import FacebookPageCloneImage from '../images/projects/facebook-page-clone.jpg'
-import SpotifyPageCloneImage from '../images/projects/spotify-page-clone.jpg'
+import SecretWordImage from '../images/projects/secret-word1.jpg'
+import AmazonPageCloneImage from '../images/projects/amazon-page-clone1.jpg'
+import FacebookPageCloneImage from '../images/projects/facebook-page-clone1.jpg'
+import SpotifyPageCloneImage from '../images/projects/spotify-page-clone1.jpg'
 
 export const projectsData = [
 	{
@@ -34,7 +34,7 @@ export const projectsData = [
 		img: FacebookPageCloneImage,
 		ProjectHeader: {
 			title: 'Clone da login do Facebook usando Tailwind CSS',
-			publishDate: '9 de Fevereiro de 2023',
+			publishDate: '7 de Fevereiro de 2023',
 			tags: 'UI / Frontend',
 		},
 	},
@@ -45,7 +45,7 @@ export const projectsData = [
 		img: SpotifyPageCloneImage,
 		ProjectHeader: {
 			title: 'Clone da login do Facebook usando Tailwind CSS',
-			publishDate: '9 de Fevereiro de 2023',
+			publishDate: '29 de Janeiro de 2023',
 			tags: 'UI / Frontend',
 		},
 	},

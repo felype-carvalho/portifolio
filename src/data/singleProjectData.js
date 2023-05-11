@@ -1,162 +1,183 @@
 // Import images
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
-import Image3 from '../images/mobile-project-2.jpg';
-import Image4 from '../images/mobile-project-1.jpg';
-import Image5 from '../images/web-project-1.jpg';
-import Image6 from '../images/ui-project-2.jpg';
-// Import icons
-import {
-	FiFacebook,
-	FiInstagram,
-	FiLinkedin,
-	FiTwitter,
-	FiYoutube,
-} from 'react-icons/fi';
+import ImageSecretWord1 from '../images/projects/secret-word1.jpg'
+import ImageSecretWord2 from '../images/projects/secret-word2.jpg'
+import ImageAmazonClone1 from '../images/projects/amazon-page-clone1.jpg'
+import ImageFacebookClone1 from '../images/projects/facebook-page-clone1.jpg'
+import ImageSpotifyClone1 from '../images/projects/spotify-page-clone1.jpg'
 
-export const singleProjectData = {
-	ProjectHeader: {
-		title: 'Project Management UI',
-		publishDate: 'Jul 26, 2021',
-		tags: 'UI / Frontend',
-	},
-	ProjectImages: [
-		{
-			id: 1,
-			title: 'Kabul Project Management UI',
-			img: Image1,
+
+export const singleProjectData = [
+	{
+		id: 1,
+		ProjectHeader: {
+			title: 'Secret Word',
+			publishDate: '23 de Fevereiro de 2023',
+			category: 'Aplicação Web',
+			github: 'https://github.com/felype-carvalho/secret-word',
+			live: 'https://github.com/felype-carvalho/secret-word',
 		},
-		{
-			id: 2,
-			title: 'Kabul Project Management UI',
-			img: Image2,
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'Menu Principal Secret Word',
+				img: ImageSecretWord2,
+			},		
+			{
+				id: 2,
+				title: 'Jogo Secret Word',
+				img: ImageSecretWord1,
+			},		
+		],
+		ProjectInfo: {
+			Technologies: [
+				{
+					title: 'Ferramentas e Tecnologias Usadas',
+					techs: [
+						'ReactJS',
+						'HTML',
+						'CSS',
+						'JavaScript',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Descrição',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'Secret Word é um jogo web desenvolvido em React, seu objetivo é adivinhar palavras sugerindo letras. Este aplicativo foi desenvolvido em conjunto com o curso de Matheus Batisti -  React do Zero a Maestria.',
+				},
+				{
+					id: 2,
+					details:
+						'No jogo é possivel conseguir pontuação ao acertar palavras alterar a linguagem dos menus e palavras entre Inglês e Português. Incluso também 25 palavras e 5 categorias.',
+				},
+			],
 		},
-		{
-			id: 3,
-			title: 'Kabul Project Management UI',
-			img: Image3,
+
+	},
+	{
+		id: 2,
+		ProjectHeader: {
+			title: 'Clone de Página Amazon',
+			publishDate: '9 de Fevereiro de 2023',
+			category: 'Design UI/UX',
+			github: 'https://github.com/felype-carvalho/amazon-page-clone',
+			live: null,
 		},
-	],
-	ProjectInfo: {
-		ClientHeading: 'About Client',
-		CompanyInfo: [
+		ProjectImages: [
 			{
 				id: 1,
-				title: 'Name',
-				details: 'Company Ltd',
-			},
-			{
-				id: 2,
-				title: 'Services',
-				details: 'UI Design & Frontend Development',
-			},
-			{
-				id: 3,
-				title: 'Website',
-				details: 'https://company.com',
-			},
-			{
-				id: 4,
-				title: 'Phone',
-				details: '555 8888 888',
+				title: 'Amazon Tela de Livros',
+				img: ImageAmazonClone1,
 			},
 		],
-		ObjectivesHeading: 'Objective',
-		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-		Technologies: [
-			{
-				title: 'Tools & Technologies',
-				techs: [
-					'HTML',
-					'CSS',
-					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
-				],
-			},
-		],
-		ProjectDetailsHeading: 'Challenge',
-		ProjectDetails: [
-			{
-				id: 1,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
-			{
-				id: 2,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 3,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 4,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
-		],
-		SocialSharingHeading: 'Share This',
-		SocialSharing: [
-			{
-				id: 1,
-				name: 'Twitter',
-				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
-			},
-			{
-				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
-			},
-			{
-				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
-				name: 'LinkedIn',
-				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
-			},
-			{
-				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
-			},
-		],
+		ProjectInfo: {
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'TailwindCSS',
+						'HTML',
+						'CSS',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Descrição',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'O projeto visa recriar a interface visual da página da Amazon utilizando os recursos do framework CSS Utility First Tailwind na versão 3.0, especificamente a sessão de venda de livros. Esta aplicação foi desenvolvida em conjunto com o curso de Matheus Batisti - Tailwind CSS do básico ao avançado.',
+				},
+				
+			],
+		},
+
 	},
-	RelatedProject: {
-		title: 'Related Projects',
-		Projects: [
+	{
+		id: 3,
+		ProjectHeader: {
+			title: 'Clone de Página Facebook',
+			publishDate: '7 de Fevereiro de 2023',
+			category: 'Design UI/UX',
+			github: 'https://github.com/felype-carvalho/facebook-page-clone',
+			live: null,
+		},
+		ProjectImages: [
 			{
 				id: 1,
-				title: 'Mobile UI',
-				img: Image4,
+				title: 'Kabul Project Management UI',
+				img: ImageFacebookClone1,
 			},
-			{
-				id: 2,
-				title: 'Web Application',
-				img: Image5,
-			},
-			{
-				id: 3,
-				title: 'UI Design',
-				img: Image6,
-			},
-			{
-				id: 4,
-				title: 'Kabul Mobile App UI',
-				img: Image3,
-			},
+			
 		],
+		ProjectInfo: {
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'TailwindCSS',
+						'HTML',
+						'CSS',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Descrição',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'O projeto visa recriar a interface visual da página de login do Facebook, utilizando os recursos do framework CSS Utility First Tailwind versão 3. Esta aplicação foi desenvolvida em conjunto com o curso de Matheus Batisti - Tailwind CSS do básico ao avançado.',
+				},
+				
+			],
+		},
+
 	},
-};
+	{
+		id: 4,
+		ProjectHeader: {
+			title: 'Clone de Página Spotify',
+			publishDate: '29 de Janeiro de 2023',
+			category: 'Design UI/UX',
+			github: 'https://github.com/felype-carvalho/spotify-page-clone',
+			live: null,
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'Kabul Project Management UI',
+				img: ImageSpotifyClone1,
+			},
+			
+		],
+		ProjectInfo: {
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'TailwindCSS',
+						'HTML',
+						'CSS',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Descrição',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'O projeto visa recriar a interface visual da página de login do Facebook, utilizando os recursos do framework CSS Utility First Tailwind versão 3. Esta aplicação foi desenvolvida em conjunto com o curso de Matheus Batisti - Tailwind CSS do básico ao avançado.',
+				},
+				
+			],
+		},
+
+	},
+
+
+]
+
+
+
