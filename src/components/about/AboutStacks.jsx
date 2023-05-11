@@ -1,21 +1,21 @@
 import { useContext } from 'react';
 import AboutMeContext from '../../context/AboutMeContext';
-import AboutClientSingle from './AboutClientSingle';
+import AboutStackSingle from './AboutStackSingle';
 
 const AboutClients = () => {
-	const { clientsData, clientsHeading } = useContext(AboutMeContext);
+	const { stacksData, stacksHeading } = useContext(AboutMeContext);
 
 	return (
 		<div className="mt-10 sm:mt-20">
 			<p className="font-general-medium text-2xl sm:text-3xl  text-center text-primary-dark dark:text-primary-light">
-				{clientsHeading}
+				{stacksHeading}
 			</p>
-			<div className="grid grid-cols-2 sm:grid-cols-4 mt-10 sm:mt-14 gap-2">
-				{clientsData.map((client) => (
-					<AboutClientSingle
-						title={client.title}
-						image={client.img}
-						key={client.id}
+			<div className="grid grid-cols-2 sm:grid-cols-8 mt-10 sm:mt-14 gap-2">
+				{stacksData.map((stack) => (
+					<AboutStackSingle
+						title={stack.title}
+						image={stack.img}
+						key={stack.id}
 					/>
 				))}
 			</div>

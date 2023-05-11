@@ -504,9 +504,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-5 {
   margin-top: 1.25rem;
 }
-.mb-8 {
-  margin-bottom: 2rem;
-}
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -515,6 +512,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mb-4 {
   margin-bottom: 1rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .mb-20 {
   margin-bottom: 5rem;
@@ -600,11 +600,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-full {
   width: 100%;
 }
-.w-64 {
-  width: 16rem;
-}
 .w-96 {
   width: 24rem;
+}
+.w-64 {
+  width: 16rem;
 }
 .w-40 {
   width: 10rem;
@@ -820,13 +820,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 .py-2\.5 {
   padding-top: 0.625rem;
@@ -1212,12 +1212,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 5rem;
   }
 
-  .sm\:mt-14 {
-    margin-top: 3.5rem;
-  }
-
   .sm\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .sm\:mt-14 {
+    margin-top: 3.5rem;
   }
 
   .sm\:mb-14 {
@@ -1278,6 +1278,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:w-48 {
     width: 12rem;
+  }
+
+  .sm\:grid-cols-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 
   .sm\:grid-cols-4 {
