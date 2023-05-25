@@ -5,7 +5,7 @@ const ProjectGallery = () => {
 	const { singleProjectData } = useContext(SingleProjectContext);
 
 	return (
-		<div className="flex flex-cols-1 md:flex-cols-3 sm:gap-10 mt-12 max-w-4xl justify-center">
+		<div className="flex flex-cols-1 lg:flex-cols-2 sm:gap-10 mt-12 justify-center">
 			{singleProjectData.ProjectImages.map((project) => {
 				return (
 					<div className="mb-10 sm:mb-0" key={project.id}>

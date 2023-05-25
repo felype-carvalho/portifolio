@@ -4,11 +4,115 @@ import ImageSecretWord2 from '../images/projects/secret-word2.jpg'
 import ImageAmazonClone1 from '../images/projects/amazon-page-clone1.jpg'
 import ImageFacebookClone1 from '../images/projects/facebook-page-clone1.jpg'
 import ImageSpotifyClone1 from '../images/projects/spotify-page-clone1.jpg'
+import ImageMiniBlog1 from '../images/projects/miniblog1.jpg'
+import ImageMiniBlog2 from '../images/projects/miniblog2.jpg'
+import ImageSpringAPIImage1 from '../images/projects/spring-api-crud1.jpg'
+import ImageSpringAPIImage2 from '../images/projects/spring-api-crud2.jpg'
 
 
 export const singleProjectData = [
 	{
 		id: 1,
+		ProjectHeader: {
+			title: 'Spring API CRUD',
+			publishDate: '12 de Maio de 2023',
+			category: 'Aplicação Web',
+			github: 'https://github.com/felype-carvalho/spring-api-crud',
+			live: null,
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'Menu Principal Secret Word',
+				img: ImageSpringAPIImage1,
+			},		
+			{
+				id: 2,
+				title: 'Jogo Secret Word',
+				img: ImageSpringAPIImage2,
+			},		
+		],
+		ProjectInfo: {
+			Technologies: [
+				{
+					title: 'Ferramentas e Tecnologias Usadas',
+					techs: [
+						'Java',
+						'Spring',
+						'Spring JPA',
+						'H2 Database',
+						'Swagger',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Descrição',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'O projeto é uma API Rest em Spring com funcionalidades CRUD para os objetos Pessoa e Endereço. Onde o relacionamento funciona como se uma pessoa tivesse multiplos endereços.',
+				},
+				{
+					id: 2,
+					details:
+						'A API realiza validação de duplicidade para e-mail e cpf, utiliza também o H2 Database para persistir os dados em memória. A documentação para teste da API foi gerada utilizando Swagger',
+				},
+			],
+		},
+
+	},
+	{
+		id: 2,
+		ProjectHeader: {
+			title: 'Mini Blog',
+			publishDate: '4 de Abril de 2023',
+			category: 'Aplicação Web',
+			github: 'https://github.com/felype-carvalho/miniblog',
+			live: 'https://miniblog-felype-carvalho.vercel.app',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'Pagina Principal MiniBlog',
+				img: ImageMiniBlog1,
+			},		
+			{
+				id: 2,
+				title: 'Pagina de Login',
+				img: ImageMiniBlog2,
+			},		
+		],
+		ProjectInfo: {
+			Technologies: [
+				{
+					title: 'Ferramentas e Tecnologias Usadas',
+					techs: [
+						'ReactJS',
+						'Firebase',
+						'HTML',
+						'CSS',
+						'JavaScript',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Descrição',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+						'O Mini Blog é um aplicativo feito em React e Firebase, que visa ser um ambiente onde o usuário possa postar sobre seu dia a dia, trabalho, viagens, etc. Este aplicativo foi desenvolvido em conjunto com o curso de Matheus Batisti -  React do Zero a Maestria.',
+				},
+				{
+					id: 2,
+					details:
+						'Na aplicação é possivel se cadastrar, realizar login e visualizar postagens de outros usuários. Também criar, editar, atualizar e excluir postagens a partir de um dashboard.',
+				},
+			],
+		},
+
+	},
+	{
+		id: 3,
 		ProjectHeader: {
 			title: 'Secret Word',
 			publishDate: '23 de Fevereiro de 2023',
@@ -57,7 +161,7 @@ export const singleProjectData = [
 
 	},
 	{
-		id: 2,
+		id: 4,
 		ProjectHeader: {
 			title: 'Clone de Página Amazon',
 			publishDate: '9 de Fevereiro de 2023',
@@ -96,7 +200,7 @@ export const singleProjectData = [
 
 	},
 	{
-		id: 3,
+		id: 5,
 		ProjectHeader: {
 			title: 'Clone de Página Facebook',
 			publishDate: '7 de Fevereiro de 2023',
@@ -136,7 +240,7 @@ export const singleProjectData = [
 
 	},
 	{
-		id: 4,
+		id: 6,
 		ProjectHeader: {
 			title: 'Clone de Página Spotify',
 			publishDate: '29 de Janeiro de 2023',

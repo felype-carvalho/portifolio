@@ -676,9 +676,6 @@ video {
 .w-full {
   width: 100%;
 }
-.max-w-4xl {
-  max-width: 56rem;
-}
 .max-w-md {
   max-width: 28rem;
 }
@@ -1220,10 +1217,6 @@ video {
 :is(.dark .dark\:text-ternary-light) {
   --tw-text-opacity: 1;
   color: rgb(246 247 248 / var(--tw-text-opacity));
-}
-:is(.dark .dark\:text-white) {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 :is(.dark .dark\:hover\:bg-primary-light:hover) {
   --tw-bg-opacity: 1;
