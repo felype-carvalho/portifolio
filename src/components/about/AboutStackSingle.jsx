@@ -1,11 +1,17 @@
-const AboutStackSingle = ({ title, image }) => {
+const AboutStackSingle = ({ title, image , docs}) => {
 	return (
 		<>
-			<img
-				src={image}
-				className="w-64 py-5 px-10 dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer"
-				alt={title}
-			/>
+			<a
+				href={docs}
+				target="__blank"
+			>
+				<img
+					src={image}
+					className="w-64 py-5 px-10 dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer"
+					alt={title}
+					title={title}
+				/>
+			</a>
 		</>
 	);
 };

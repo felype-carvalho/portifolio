@@ -34,7 +34,7 @@ const useScrollToTop = () => {
 	return (
 		<>
 			<FiChevronUp
-				className="scrollToTop dark:text-white"
+				className="scrollToTop"
 				onClick={backToTop}
 				style={{
 					height: 45,

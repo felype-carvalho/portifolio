@@ -6,6 +6,7 @@ import FirebaseImage from '../images/stacks/firebase-plain.svg'
 import GitImage from '../images/stacks/git-original.svg'
 import HTML5Image from '../images/stacks/html5-original.svg'
 import JavaImage from '../images/stacks/java-original.svg'
+import SpringImage from '../images/stacks/spring-original.svg'
 import JavaScriptImage from '../images/stacks/javascript-original.svg'
 import JqueryImage from '../images/stacks/jquery-original.svg'
 import MySQLImage from '../images/stacks/mysql-original.svg'
@@ -21,70 +22,90 @@ export const stacksData = [
 		id: 1,
 		title: 'HTML5',
 		img: HTML5Image,
+		docs: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5',
 	},
 	{
 		id: 2,
 		title: 'CSS3',
 		img: CSS3Image,
+		docs: 'https://developer.mozilla.org/pt-BR/docs/Web/CSS',
 	},
 	{
 		id: 3,
 		title: 'JavaScript',
 		img: JavaScriptImage,
+		docs: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript',
 	},
 	{
 		id: 4,
 		title: 'TypeScript',
 		img: TypeScriptImage,
+		docs: 'https://www.typescriptlang.org/docs/',
 	},
 	{
 		id: 5,
 		title: 'React',
 		img: ReactImage,
+		docs: 'https://react.dev/learn',
 	},
 	{
 		id: 6,
 		title: 'Java',
 		img: JavaImage,
+		docs: 'https://docs.oracle.com/en/java/',
 	},
 	{
 		id: 7,
-		title: 'MySQL',
-		img: MySQLImage,
+		title: 'Spring Boot',
+		img: SpringImage,
+		docs: 'https://spring.io/projects/spring-boot',
 	},
 	{
 		id: 8,
-		title: 'Firebase',
-		img: FirebaseImage,
+		title: 'MySQL',
+		img: MySQLImage,
+		docs: 'https://dev.mysql.com/doc/',
 	},
 	{
 		id: 9,
-		title: 'Git',
-		img: GitImage,
+		title: 'Firebase',
+		img: FirebaseImage,
+		docs: 'https://firebase.google.com/docs?hl=pt-br',
 	},
 	{
 		id: 10,
-		title: 'Bootstrap',
-		img: BootstrapImage,
+		title: 'Git',
+		img: GitImage,
+		docs: 'https://git-scm.com/doc',
 	},
 	{
 		id: 11,
-		title: 'TailwindCSS',
-		img: TailwindCSSImage,
+		title: 'Bootstrap',
+		img: BootstrapImage,
+		docs: 'https://getbootstrap.com/docs/5.2/getting-started/introduction/',
 	},
 	{
 		id: 12,
-		title: 'JQuery',
-		img: JqueryImage,
+		title: 'TailwindCSS',
+		img: TailwindCSSImage,
+		docs: 'https://tailwindui.com/documentation',
 	},
 	{
 		id: 13,
-		title: 'Figma',
-		img: FigmaImage,
+		title: 'JQuery',
+		img: JqueryImage,
+		docs: 'https://api.jquery.com',
 	},
 	{
 		id: 14,
+		title: 'Figma',
+		img: FigmaImage,
+		docs: 'https://help.figma.com/hc/en-us/article/29-team-library',
+	},
+	{
+		id: 15,
 		title: 'Adobe XD',
 		img: XDImage,
+		docs: 'https://helpx.adobe.com/br/xd/user-guide.html',
 	},
 ];

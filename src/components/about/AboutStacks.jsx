@@ -16,6 +16,7 @@ const AboutClients = () => {
 						title={stack.title}
 						image={stack.img}
 						key={stack.id}
+						docs={stack.docs}
 					/>
 				))}
 			</div>
